@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="css.css" rel="stylesheet" />
+    <script src="userSession.js"></script>
+    <script src="ajaxRequester.js"></script>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jsApp.js"></script>
+    <title>Grades FMI</title>
+</head>
+<body>
+    <header>
+    <span>Grades App</span>
+    </header>
+    <main>
+        <div id="homeView" align="center">
+            <a id="btnShowLoginView" href="#">Login</a>
+            <a id="btnShowRegisterView" href="#">Register</a>
+        </div>
+        <div id="loginView" align="center">
+            <form>
+                Username: <input id="txtLoginUsername" type="text" /><br />
+                Password: <input id="txtLoginPassword" type="password" /><br />
+                <a id="btnLogin" href="#">Login</a>
+            </form>
+        </div>
+        <div id="registerView" align="center">
+            <form>
+                Username: <input id="txtRegisterUsername" type="text" /><br />
+                Password: <input id="txtRegisterPassword" type="password" /><br />
+                <a id="btnRegister" href="#">Register</a>
+            </form>
+        </div>
+        <div id="gradesView">
+            <ul id="gradesUl"></ul>
+            <div id="addGrade">
+                <form id="addGrade">
+                    Subject: <input id="subject" type="text" /><br />
+                    Grade: <input id="grade" type="text" /><br />
+                    <a id="addBtn" href="#">Add
+                    </a>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>Copyright something.. Grades FMI</footer>
+</body>
+</html>

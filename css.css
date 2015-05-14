@@ -1,0 +1,51 @@
+﻿body {
+    font-size:20px;
+}
+header, footer {
+    margin:auto;
+    width:60%;
+    background-color:#808080;
+    text-align: center;
+    font-size:24px;
+}
+main {
+    margin:auto;
+    width:60%;
+}
+div {
+    background-color:orange;
+}
+a {
+    font-size: 24px;
+    width:150px;
+    text-decoration:none;
+}
+ul, li {
+    display: inline-block;
+}
+
+#homeView {
+   height: 30px;
+   padding-top:50px;
+   padding-bottom:50px;
+}
+form {
+    padding:35px 35px 35px 0;
+    width:300px;
+    text-align:right;
+}
+#txtLoginPassword {
+    margin-bottom:5px;
+}
+
+#gradesView {
+    display:inline-block;
+    width:100%;
+}
+#btnShowLoginView, #btnShowRegisterView {
+    margin-right: 5%;
+    margin-left:5%;
+}
+#addGrade {
+    float:right;
+}
